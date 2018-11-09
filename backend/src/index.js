@@ -9,7 +9,7 @@ const server = require('http').Server(app);
 const io = require('socket.io')(server);
 
 
-mongoose.connect('mongodb://admin:marinho010@ds123770.mlab.com:23770/goweek-kevyn', 
+mongoose.connect('<SuaConnectionString>', 
     {
         useNewUrlParser: true
     });
